@@ -63,7 +63,7 @@ class Encrypter
      * @param String $key
      * @return Integer
      */
-    public static function keyLenght($key)
+    public static function keyLength($key)
     {
         return mb_strlen($key, '8bit');
     }
